@@ -1,0 +1,29 @@
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    background-color: #efefef;
+    border: 1px dashed #cdcdcd;
+    border-radius: 5px;
+    padding: 15px;
+    display: inline-block;
+}
+
+#root input {
+    padding: 5px 10px;
+    border: 1px dashed #c3c3c3;
+    width: 100%;
+}
+
+#root ul {
+    margin: 15px 0;
+}
+
+#root ul li {
+  display: block;
+  padding: 5px 0;
+}
